@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Department of Computer Science | University Webpage</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #333; }
+        header { background: #003366; color: white; padding: 2rem; text-align: center; }
+        nav { background: #f4f4f4; padding: 10px; text-align: center; border-bottom: 2px solid #ccc; }
+        section { padding: 20px; max-width: 1000px; margin: auto; border-bottom: 1px solid #eee; }
+        h2 { color: #003366; border-left: 5px solid #003366; padding-left: 10px; }
+        .faculty-list, .course-list { list-style: none; padding: 0; }
+        .item { margin-bottom: 15px; }
+        footer { background: #222; color: white; text-align: center; padding: 1rem; position: relative; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>VIT Technical University</h1>
+    <p>Empowering Innovation through Excellence in Education and Research.</p>
+    <p><strong>Chancellor:</strong> Dr. Jane Smith | <strong>Vice-Chancellor:</strong> Prof. Robert Brown</p>
+</header>
+
+<nav>
+    <a href="#about">About</a> | <a href="#courses">Courses</a> | <a href="#faculty">Faculty</a> | <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About the Department</h2>
+    <p>The Department of Computer Science at VIT Technical University is dedicated to cutting-edge research and high-quality education, we focus on equipping students with the theoretical foundation and practical skills necessary to lead in the rapidly evolving tech industry.</p>
+</section>
+
+<section id="courses">
+    <h2>Courses Offered</h2>
+    <div class="item">
+        <h3>M Tech (Software Engineering)</h3>
+        <p>A 5-year undergraduate program covering software engineering, algorithms, and web technologies.</p>
+    </div>
+    <div class="item">
+        <h3>M.Sc. in Data Science</h3>
+        <p>A 2-year postgraduate course focusing on big data analytics, machine learning, and statistical modeling.</p>
+    </div>
+</section>
+
+<section id="faculty">
+    <h2>Our Faculty</h2>
+    <ul class="faculty-list">
+        <li class="item"><strong>Dr. Sweta Bhattacharya</strong> - Professor (Agile development)</li>
+        <li class="item"><strong>Dr. Alice Johnson</strong> - Professor (Artificial Intelligence & Robotics)</li>
+        <li class="item"><strong>Dr. Mark Davis</strong> - Associate Professor (Cybersecurity & Network Systems)</li>
+        <li class="item"><strong>Prof. Sarah Lee</strong> - Assistant Professor (Cloud Computing)</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> Building 4, Science Block, Global Technical University, City, State, 12345</p>
+    <p><strong>Phone:</strong> +1 (555) 012-3456</p>
+    <p><strong>Email:</strong> cs-dept@gtu.edu</p>
+</section>
+
+<footer>
+    <p>&copy; 2023 Vellore Institutional Technology University. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
